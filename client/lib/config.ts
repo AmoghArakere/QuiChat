@@ -1,0 +1,1 @@
+export const BACKEND_URL = "wss://chattr-0rux.onrender.com";

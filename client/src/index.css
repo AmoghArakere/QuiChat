@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&f[]=clash-display@700,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans:wght@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.font-bricolage-grotesque {
+  font-family: "Bricolage Grotesque", serif;
+}
+
+.font-courier {
+  font-family: "Courier New", monospace;
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+:root:-webkit-scrollbar {
+  /* Chrome, Safari and Opera */
+  display: none;
+}
+
+:root {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
