@@ -7,7 +7,7 @@ import { BsFillSendFill } from "react-icons/bs";
 import { FaUserCircle } from "react-icons/fa"; // Import user icon
 import { generateRoomId } from "../../lib/utils";
 
-const BACKEND_URL = "ws://localhost:3000";
+const BACKEND_URL = "https://quichat.onrender.com";
 
 const Chat = () => {
   const navigate = useNavigate();
