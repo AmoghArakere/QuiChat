@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 import http from "http";
 
-export const BACKEND_URL = "https://quichat.onrender.com";
+export const BACKEND_URL = "wss://quichat.onrender.com";
 
 const app = express();
 app.use(cors());
