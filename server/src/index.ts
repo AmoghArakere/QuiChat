@@ -3,6 +3,8 @@ import express from "express";
 import cors from "cors";
 import http from "http";
 
+export const BACKEND_URL = "wss://quickchat.onrender.com";
+
 const app = express();
 app.use(cors());
 
@@ -35,11 +37,16 @@ ws.on("connection", function connection(socket: WebSocket) {
       }
 
       if (parsedMessage.type === "chat") {
-        const currentUserRoom = allSockets.find((x) => x.socket === socket)?.roomId;
+        const currentUserRoom = allSockets.find(
+          (x) => x.socket === socket
+        )?.roomId;
 
         if (currentUserRoom) {
           allSockets.forEach((user) => {
-            if (user.roomId === currentUserRoom && user.socket.readyState === WebSocket.OPEN) {
+            if (
+              user.roomId === currentUserRoom &&
+              user.socket.readyState === WebSocket.OPEN
+            ) {
               user.socket.send(
                 JSON.stringify({
                   type: "chat",
