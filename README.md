@@ -18,4 +18,4 @@ QuiChat is an anonymous chat application that enables secure, temporary, and pri
 - **Responsive Design**: Optimized for all devices. 📱💻
 
 ---
-![chatapp](https://github.com/user-attachments/assets/a873d855-7f39-4d58-896a-6a4fb35713fd)
+![chatapp](https://github.com/user-attachments/assets/41013647-868e-4b81-936e-d5b58e8b314e)
