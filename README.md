@@ -6,7 +6,7 @@ QuiChat is an anonymous chat application that enables secure, temporary, and pri
 
 <br>
 
-**QuiChat is live! Visit [QuiChat](https://quichat-orpin.vercel.app/) to start chatting anonymously now. 🚀**
+**QuiChat is live! Visit [QuiChat](https://qui-chat-phi.vercel.app/) to start chatting anonymously now. 🚀**
 
 ---
 
