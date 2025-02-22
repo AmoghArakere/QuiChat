@@ -2,7 +2,7 @@
 
 **Chat Without a Footprint** 🌐
 
-QuiChat is an anonymous chat application that enables secure, temporary, and private conversations between two users. With no chat history saved anywhere and a seamless experience, Chattr ensures your conversations leave no digital footprint. 🛡️💬
+QuiChat is an anonymous chat application that enables secure, temporary, and private conversations between two users. With no chat history saved anywhere and a seamless experience, QuiChat ensures your conversations leave no digital footprint. 🛡️💬
 
 <br>
 
